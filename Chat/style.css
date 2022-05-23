@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: gray;
+    width: 1000px;
+    border: 5px solid black;
+    padding: auto;
+    margin: auto;
+    display: flex;
+}
+
+.child {
+    margin: auto;
+}
+
+.chat-form {
+    display: flex;
+    flex-shrink: 0;
+    margin: 20px 0px;
+    width: 300px;
+}
+.chat-form textarea {
+    resize: none;
+    flex-grow: 1;
+    margin: 0px 3px 0px 0px;
+}
+
+.msg-sent, .msg-received {
+    box-shadow: 1px 1px 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 250px;
+    width: fit-content;
+    width: -moz-fit-content;
+    overflow-wrap: break-word;
+    font-size: smaller;
+}
+
+.msg-sent{  
+    background-color: lightgreen;
+    align-self:flex-end;
+}
+
+.msg-received {
+    background-color: gainsboro;
+    margin: 5px
+}
+
+.msg-list {
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}

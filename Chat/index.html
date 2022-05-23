@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="text-center">Hello World Chat</h1>
+    <div class="container">
+      <div class="child" id="main">
+        <h2>Chat A</h2>
+        <div class="msg-list"></div>
+        <form id="mainForm" class="chat-form">
+          <textarea
+            id="mainFormInput"
+            placeholder="Type your message here"
+          ></textarea>
+          <button type="submit" id="mainFormButton">Ok</button>
+        </form>
+      </div>
+      <div class="child" id="secondary">
+        <h2>Chat B</h2>
+        <div class="msg-list"></div>
+        <form id="secondaryForm" class="chat-form">
+          <textarea
+            id="secondaryFormInput"
+            placeholder="Type your message here"
+          ></textarea>
+          <button type="submit" id="secondFormButton">Ok</button>
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
